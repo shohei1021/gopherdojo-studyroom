@@ -34,16 +34,5 @@ $ make
 ```
 2. ディレクトリを指定して実行
 ```bash
-$ ./bin/converter [directory] [options...]
-```
-
-
-### テスト
-- バイナリビルド & テスト
-```bash
-$ make test
-```
-- テスト後の処理(掃除)
-```bash
-$ make clean
+$ ./converter [探索ディレクトリ] [変更前拡張子] [変換後拡張子]
 ```
